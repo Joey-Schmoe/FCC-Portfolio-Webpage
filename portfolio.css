@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: end;
+
+    width: 100%;
+    font-size: 18px;
+
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    height: 48px;
+}
+
+.nav-link {
+    padding: 0 18px;
+}
+
+#welcome-section {
+    margin-top: 48px;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome-section h1 {
+    margin: auto;
+    text-align: center;
+}
+
+#projects {
+    margin: 32px auto 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-tile {
+    width: 240px;
+    
+    margin: 24px;
+    padding: 16px;
+
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+
+.project-image {
+    border: 3px solid gray;
+}
+
+.project-tile img {
+    max-width: 100%;
+}
+
+.project-tile p, .project-tile h2 {
+    text-align: center;
+}
+
+#contact {
+    margin-top: 64px;
+}
+
+#contact-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+    font-size: 120px;
+}
+
+.fab {
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    text-decoration: none;
+
+    vertical-align: center;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-wrapper {
+        font-size: 60px;
+    }
+}
