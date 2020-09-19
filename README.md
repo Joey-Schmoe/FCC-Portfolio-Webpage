@@ -1,0 +1,1 @@
+Repo for the freecodeacademy project 'Build a Personal Portfolio Webpage'.
